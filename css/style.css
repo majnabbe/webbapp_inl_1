@@ -1,0 +1,199 @@
+root{
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: lightgray; */
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+} 
+
+.logo{
+    font-size: 2rem;
+    margin: 0.6rem;
+}
+
+.nav-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1.2rem;
+    display: block;
+}
+
+.nav-links li a:visited{
+    color:dodgerblue;
+}
+
+.nav-links li a:hover{
+    background-color: lightblue;
+}
+
+.nav-links li a:active{
+    color: gray;
+}
+
+.change-font{
+    font-family: Limelight;
+    font-size: large;
+    text-align: center;
+}
+
+.header{
+    /* background-color: aliceblue; */
+    text-align: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    /* background-color: cadetblue; */
+    flex-direction: column;
+}
+
+.box{   
+    /* background-color: lightblue; */
+    margin: 0 15rem;
+    padding: 1rem;
+}
+
+.image-size{
+    height: auto;
+    width: 100%;
+}
+
+.footer {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    height: 2rem;
+    padding: 00.5rem;
+    font-weight: bold;
+  }
+
+.btn{
+    color: white;
+    background-color: skyblue;
+    padding: 1rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+      background-color:lightslategrey;
+  }
+
+  .tabl{
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .tabl, th, td{
+      border: 1px solid white;
+      border-collapse: collapse;
+  }
+
+  .tabl th, td{
+      background-color: skyblue;
+      padding: 1rem;
+  }
+
+  .tabl td{
+      text-align: center;
+  }
+
+  #center{
+      text-align: center;
+  }
+    
+  .submit{
+    color: white;
+    background-color: skyblue;
+    padding: 1rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .submit:hover{
+    background-color:lightslategrey;
+  }
+
+  #textarea{
+      width: 100%;
+      height: 10rem;
+      outline: none;
+  }
+
+  #form-fix{
+      width: 100%;
+      outline: none;
+  }
+
+  #marg{
+      margin: 1em 4em;
+  }
+
+  label{
+     display: inline-block;
+     padding: 0.5em;
+     padding-left: 0;
+  }
+
+  .btn-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .b-image{
+      background: black url("../img/PIA01990_small.jpg") no-repeat top right;
+      height: 500px;
+      border: 1px solid red;
+      color: green;
+  }
+
+  #size-change1{
+      font-size: 1.1rem;
+  }
+
+  #size-change2{
+    font-size: 1.2rem;
+  }
+
+  #size-change3{
+      font-size: 1.2em;
+  }
+
+  #size-change4{
+    font-size: 1.4em;
+    color: crimson;
+}

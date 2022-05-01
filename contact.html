@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3FO</title>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <!--Hämtar en font från Google Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Limelight"
+    />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">3FO</div>
+      <div class="nav-links">
+        <ul class>
+          <li><a href="archive.html">Arkiv</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="about.html">Om</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header">
+      <h1>Kontakt</h1>
+    </header>
+
+    <article>
+      <div class="container">
+        <div class="box">
+          <form id="marg">
+            <!-- <label for="subject">Välj ämne</label><br /> -->
+            <select name="subject" id="subject">
+              <option value="Ämne">Välj ämne</option>
+              <option value="Hylla">Hylla</option>
+              <option value="Såga">Såga</option>
+              <option value="Annat">Annat</option></select
+            ><br />
+
+            <label for="lastName">Efternamn</label><br />
+            <input type="text" name="lastName" id="form-fix" /><br />
+            <label for="firstName">Förnamn</label><br />
+            <input type="text" name="firstName" id="form-fix" /><br />
+            <label for="emailAddress">Epost</label><br />
+            <input type="emailAddress" id="form-fix" /><br />
+            <label for="textarea">Meddelande</label><br />
+            <textarea name="message" id="textarea"></textarea><br /><br />
+
+            <input type="submit" class="submit" /><br /><br />
+
+            <input type="checkbox" name="Checkbox" />Kryssa i rutan för att bli
+            meddelad om när nya frågor postas.<br /><br />
+          </form>
+          <div class="btn-center">
+            <a href="index.html">
+              <button name="btnIndex" class="btn">Till förstasidan</button>
+            </a>
+          </div>
+        </div>
+        <div class="box"></div>
+      </div>
+    </article>
+
+    <footer class="footer">Design av Incopetent</footer>
+  </body>
+</html>
